@@ -4,7 +4,7 @@ import requests
 def Home(request):
     """ Api From Weatherbit.io """
 
-    key = 'Your Api'
+    key = '87db0704d0fe4cd0af6d943c48e49057'
     url = 'https://api.weatherbit.io/v2.0/current?lat={}&lon={}&key={}'
 
 
